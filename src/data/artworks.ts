@@ -10,78 +10,6 @@ export interface Artwork {
 export const artworks: Artwork[] = [
   {
     id: 1,
-    title: "Pegasus Before the Wings",
-    description: "",
-    imageUrls: [
-      "/artworks/pegasus/Pegasus before the wings.jpg",
-      "/artworks/pegasus/Pegasus closeup 1.jpg",
-      "/artworks/pegasus/Pegasus closeup 2.jpg",
-      "/artworks/pegasus/Pegasus closeup 3.jpg",
-    ],
-    year: "2025",
-    medium: "Oil on Canvas 21 1/2 x 21 1/2 in"
-  },
-  {
-    id: 2,
-    title: "Sparrow",
-    description: "",
-    imageUrls: [
-      "/artworks/sparrow/Sparrow.jpg",
-      "/artworks/sparrow/Sparrow closeup 1.jpg",
-      "/artworks/sparrow/Sparrow closeup 2.jpg",
-    ],
-    year: "2025",
-    medium: "Oil on Canvas 24 x 20 in"
-  },
-  {
-    id: 3,
-    title: "Heritage",
-    description: "",
-    imageUrls: [
-      "/artworks/heritage/Heritage.jpg",
-      "/artworks/heritage/Heritage closeup 1.jpg",
-      "/artworks/heritage/Heritage closeup 2.jpg",
-      "/artworks/heritage/Heritage closeup 3.jpg",
-    ],
-    year: "2025",
-    medium: "Oil on Canvas 16 x 16 in"
-  },
-  {
-    id: 4,
-    title: "Free Run",
-    description: "",
-    imageUrls: [
-      "/artworks/running_horse/Running horse.jpg",
-      "/artworks/running_horse/Running horse closeup 1.jpg",
-      "/artworks/running_horse/Running horse closeup 2.jpg",
-      "/artworks/running_horse/Running horse closeup 3.jpg",
-    ],
-    year: "2025",
-    medium: "Oil on Canvas 24 x 24 in"
-  },
-  {
-    id: 5,
-    title: "Running Rabbit",
-    description: "",
-    imageUrls: [
-      "/artworks/running_rabbit/Running Rabbit.jpg",
-      "/artworks/running_rabbit/Running rabbit Large.jpg",
-    ],
-    year: "2025",
-    medium: "Oil on Canvas 15 x 18 in"
-  },
-  {
-    id: 6,
-    title: "Awakening",
-    description: "",
-    imageUrls: [
-      "/artworks/hand/Hand.jpg",
-    ],
-    year: "2025",
-    medium: "Oil on Canvas 18 x 15 in"
-  },
-  {
-    id: 7,
     title: "Grasshopper",
     description: "",
     imageUrls: [
@@ -95,7 +23,7 @@ export const artworks: Artwork[] = [
     medium: "Oil on canvas 30 x 40 in"
   },
   {
-    id: 8,
+    id: 2,
     title: "Sunset",
     description: "",
     imageUrls: [
@@ -107,7 +35,66 @@ export const artworks: Artwork[] = [
     medium: "Oil on canvas 48 x 36 in"
   },
   {
-    id: 9,
+    id: 3,
+    title: "Roots of the Unborn",
+    description: "",
+    imageUrls: [
+      "/artworks/roots_of_the_unborn/Roots of the Unborn 2.jpg",
+      "/artworks/roots_of_the_unborn/Roots of the Unborn .jpg",
+    ],
+    year: "2025",
+    medium: "Etching, Edition 1/5 Paper size: 5 1/2 x 7 in"
+  },
+  {
+    id: 4,
+    title: "Pegasus Before the Wings",
+    description: "",
+    imageUrls: [
+      "/artworks/pegasus/Pegasus before the wings.jpg",
+      "/artworks/pegasus/Pegasus closeup 1.jpg",
+      "/artworks/pegasus/Pegasus closeup 2.jpg",
+      "/artworks/pegasus/Pegasus closeup 3.jpg",
+    ],
+    year: "2025",
+    medium: "Oil on Canvas 21 1/2 x 21 1/2 in"
+  },
+  {
+    id: 5,
+    title: "Sparrow",
+    description: "",
+    imageUrls: [
+      "/artworks/sparrow/Sparrow.jpg",
+      "/artworks/sparrow/Sparrow closeup 1.jpg",
+      "/artworks/sparrow/Sparrow closeup 2.jpg",
+    ],
+    year: "2025",
+    medium: "Oil on Canvas 24 x 20 in"
+  },
+  {
+    id: 6,
+    title: "Heritage",
+    description: "",
+    imageUrls: [
+      "/artworks/heritage/Heritage.jpg",
+      "/artworks/heritage/Heritage closeup 1.jpg",
+      "/artworks/heritage/Heritage closeup 2.jpg",
+      "/artworks/heritage/Heritage closeup 3.jpg",
+    ],
+    year: "2025",
+    medium: "Oil on Canvas 16 x 16 in"
+  },
+  {
+    id: 7,
+    title: "Awakening",
+    description: "",
+    imageUrls: [
+      "/artworks/hand/Hand.jpg",
+    ],
+    year: "2025",
+    medium: "Oil on Canvas 18 x 15 in"
+  },
+  {
+    id: 8,
     title: "Path",
     description: "",
     imageUrls: [
@@ -119,15 +106,28 @@ export const artworks: Artwork[] = [
     medium: "Etching 8 1/2 x 6 1/2 in"
   },
   {
-    id: 10,
-    title: "Roots of the Unborn",
+    id: 9,
+    title: "Free Run",
     description: "",
     imageUrls: [
-      "/artworks/roots_of_the_unborn/Roots of the Unborn 2.jpg",
-      "/artworks/roots_of_the_unborn/Roots of the Unborn .jpg",
+      "/artworks/running_horse/Running horse.jpg",
+      "/artworks/running_horse/Running horse closeup 1.jpg",
+      "/artworks/running_horse/Running horse closeup 2.jpg",
+      "/artworks/running_horse/Running horse closeup 3.jpg",
     ],
     year: "2025",
-    medium: "Etching, Edition 1/5 Paper size: 5 1/2 x 7 in"
+    medium: "Oil on Canvas 24 x 24 in"
+  },
+  {
+    id: 10,
+    title: "Running Rabbit",
+    description: "",
+    imageUrls: [
+      "/artworks/running_rabbit/Running Rabbit.jpg",
+      "/artworks/running_rabbit/Running rabbit Large.jpg",
+    ],
+    year: "2025",
+    medium: "Oil on Canvas 15 x 18 in"
   },
   {
     id: 11,
