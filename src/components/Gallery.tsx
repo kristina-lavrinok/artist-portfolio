@@ -1,4 +1,5 @@
 import ArtworkCarousel from './ArtworkCarousel';
+import ContactFooter from './ContactFooter';
 
 interface Artwork {
   id: number;
@@ -7,6 +8,7 @@ interface Artwork {
   imageUrls: string[];
   year: string;
   medium: string;
+  status: "available" | "sold";
 }
 
 interface GalleryProps {
@@ -40,7 +42,8 @@ export default function Gallery({ artworks, title, sidebarOpen }: GalleryProps) 
             >
               <ArtworkCarousel 
                 imageUrls={artwork.imageUrls} 
-                title={artwork.title} 
+                title={artwork.title}
+                status={artwork.status}
               />
               
               <div className="space-y-3">
@@ -56,6 +59,8 @@ export default function Gallery({ artworks, title, sidebarOpen }: GalleryProps) 
             </div>
           ))}
         </div>
+
+        <ContactFooter />
       </div>
     </div>
   );

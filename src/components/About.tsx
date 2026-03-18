@@ -1,3 +1,5 @@
+import ContactFooter from './ContactFooter';
+
 interface AboutProps {
   sidebarOpen: boolean;
 }
@@ -140,6 +142,7 @@ export default function About({ sidebarOpen }: AboutProps) {
             </div>
           </div>
 
+          <ContactFooter />
         </div>
       </div>
     </div>

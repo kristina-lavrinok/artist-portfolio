@@ -5,6 +5,7 @@ export interface Artwork {
   imageUrls: string[];
   year: string;
   medium: string;
+  status: "available" | "sold";
 }
 
 export const artworks: Artwork[] = [
@@ -20,7 +21,8 @@ export const artworks: Artwork[] = [
       "/artworks/grasshopper /Grasshopper .jpg",
     ],
     year: "2026",
-    medium: "Oil on canvas 30 x 40 in"
+    medium: "Oil on canvas 30 x 40 in",
+    status: "available"
   },
   {
     id: 2,
@@ -33,7 +35,8 @@ export const artworks: Artwork[] = [
       "/artworks/sunset/Sunset.jpg",
     ],
     year: "2025",
-    medium: "Oil on canvas 48 x 36 in"
+    medium: "Oil on canvas 48 x 36 in",
+    status: "available"
   },
   {
     id: 3,
@@ -44,7 +47,8 @@ export const artworks: Artwork[] = [
       "/artworks/roots_of_the_unborn/Roots of the Unborn .jpg",
     ],
     year: "2025",
-    medium: "Etching, Edition 1/5 Paper size: 5 1/2 x 7 in"
+    medium: "Etching, Edition 1/5 Paper size: 5 1/2 x 7 in",
+    status: "available"
   },
   {
     id: 4,
@@ -57,7 +61,8 @@ export const artworks: Artwork[] = [
       "/artworks/pegasus/Pegasus closeup 3.jpg",
     ],
     year: "2025",
-    medium: "Oil on Canvas 21 1/2 x 21 1/2 in"
+    medium: "Oil on Canvas 21 1/2 x 21 1/2 in",
+    status: "available"
   },
   {
     id: 5,
@@ -69,7 +74,8 @@ export const artworks: Artwork[] = [
       "/artworks/sparrow/Sparrow closeup 2.jpg",
     ],
     year: "2025",
-    medium: "Oil on Canvas 24 x 20 in"
+    medium: "Oil on Canvas 24 x 20 in",
+    status: "available"
   },
   {
     id: 6,
@@ -82,7 +88,8 @@ export const artworks: Artwork[] = [
       "/artworks/heritage/Heritage closeup 3.jpg",
     ],
     year: "2025",
-    medium: "Oil on Canvas 16 x 16 in"
+    medium: "Oil on Canvas 16 x 16 in",
+    status: "sold"
   },
   {
     id: 7,
@@ -92,7 +99,8 @@ export const artworks: Artwork[] = [
       "/artworks/hand/Hand.jpg",
     ],
     year: "2025",
-    medium: "Oil on Canvas 18 x 15 in"
+    medium: "Oil on Canvas 18 x 15 in",
+    status: "available"
   },
   {
     id: 8,
@@ -104,7 +112,8 @@ export const artworks: Artwork[] = [
       "/artworks/path/Path 4.jpg",
     ],
     year: "2025",
-    medium: "Etching 8 1/2 x 6 1/2 in"
+    medium: "Etching 8 1/2 x 6 1/2 in",
+    status: "sold"
   },
   {
     id: 9,
@@ -117,7 +126,8 @@ export const artworks: Artwork[] = [
       "/artworks/running_horse/Running horse closeup 3.jpg",
     ],
     year: "2025",
-    medium: "Oil on Canvas 24 x 24 in"
+    medium: "Oil on Canvas 24 x 24 in",
+    status: "available"
   },
   {
     id: 10,
@@ -128,7 +138,8 @@ export const artworks: Artwork[] = [
       "/artworks/running_rabbit/Running rabbit Large.jpg",
     ],
     year: "2025",
-    medium: "Oil on Canvas 15 x 18 in"
+    medium: "Oil on Canvas 15 x 18 in",
+    status: "sold"
   },
   {
     id: 11,
@@ -143,6 +154,7 @@ export const artworks: Artwork[] = [
       "/artworks/watercolor/Watercolor 5.jpg",
     ],
     year: "2026",
-    medium: "Watercolor on paper"
+    medium: "Watercolor on paper",
+    status: "available"
   }
 ];
