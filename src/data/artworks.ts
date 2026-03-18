@@ -85,11 +85,11 @@ export const artworks: Artwork[] = [
     title: "Grasshopper",
     description: "",
     imageUrls: [
-      "/artworks/grasshopper /Grasshopper .jpg",
+      "/artworks/grasshopper /Grasshopper wall.jpg",
       "/artworks/grasshopper /Grasshopper wall close up .jpg",
       "/artworks/grasshopper /Grasshopper wall close up 2.jpg",
       "/artworks/grasshopper /Grasshopper wall close up 3.jpg",
-      "/artworks/grasshopper /Grasshopper wall.jpg",
+      "/artworks/grasshopper /Grasshopper .jpg",
     ],
     year: "2026",
     medium: "Oil on canvas 30 x 40 in"
