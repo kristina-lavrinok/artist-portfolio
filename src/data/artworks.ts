@@ -27,9 +27,10 @@ export const artworks: Artwork[] = [
     title: "Sunset",
     description: "",
     imageUrls: [
-      "/artworks/sunset/Sunset.jpg",
+      "/artworks/sunset/Sunset wall.jpg",
       "/artworks/sunset/Sunset close up .jpg",
       "/artworks/sunset/Sunset close up 2.jpg",
+      "/artworks/sunset/Sunset.jpg",
     ],
     year: "2025",
     medium: "Oil on canvas 48 x 36 in"
