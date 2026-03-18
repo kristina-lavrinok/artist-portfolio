@@ -82,42 +82,80 @@ export const artworks: Artwork[] = [
   },
   {
     id: 7,
-    title: "Winter",
+    title: "Grasshopper",
     description: "",
     imageUrls: [
-      "/artworks/winter/Winter.jpg",
+      "/artworks/grasshopper /Grasshopper .jpg",
+      "/artworks/grasshopper /Grasshopper wall.jpg",
+      "/artworks/grasshopper /Grasshopper wall close up .jpg",
+      "/artworks/grasshopper /Grasshopper wall close up 2.jpg",
+      "/artworks/grasshopper /Grasshopper wall close up 3.jpg",
     ],
-    year: "2024",
-    medium: "Oil on Canvas 40 x 30 in"
+    year: "2026",
+    medium: "Oil on canvas 30 x 40 in"
   },
   {
     id: 8,
-    title: "Self Portrait",
+    title: "Sunset",
     description: "",
     imageUrls: [
-      "/artworks/self_portrait/Self PORTRAIT.jpg",
+      "/artworks/sunset/Sunset.jpg",
+      "/artworks/sunset/Sunset close up .jpg",
+      "/artworks/sunset/Sunset close up 2.jpg",
     ],
-    year: "2024",
-    medium: "Oil on Canvas 24 x 24 in"
+    year: "2025",
+    medium: "Oil on canvas 48 x 36 in"
   },
   {
     id: 9,
-    title: "Self Portrait",
+    title: "Path",
     description: "",
     imageUrls: [
-      "/artworks/self_portrait_double/Self PORTRAIT DOBLE.jpg",
+      "/artworks/path/Path.jpg",
+      "/artworks/path/Path 3.jpg",
+      "/artworks/path/Path 4.jpg",
     ],
     year: "2025",
-    medium: "Oil on panel (diptych) 8 x 6 in each"
+    medium: "Etching 8 1/2 x 6 1/2 in"
   },
   {
     id: 10,
-    title: "The Horse",
+    title: "Roots of the Unborn",
     description: "",
     imageUrls: [
-      "/artworks/lady_horse/Lady Horse.jpg",
+      "/artworks/roots_of_the_unborn/Roots of the Unborn .jpg",
+      "/artworks/roots_of_the_unborn/Roots of the Unborn 2.jpg",
     ],
     year: "2025",
-    medium: "Oil on Canvas 20 x 24 in"
+    medium: "Etching, Edition 1/5 Paper size: 5 1/2 x 7 in"
+  },
+  {
+    id: 11,
+    title: "Where the Body Becomes Unbound",
+    description: "",
+    imageUrls: [
+      "/artworks/watercolor/Watercolor.jpg",
+      "/artworks/watercolor/Watercolor 1.jpg",
+      "/artworks/watercolor/Watercolor 2.jpg",
+      "/artworks/watercolor/Watercolor 3.jpg",
+      "/artworks/watercolor/Watercolor 4.jpg",
+      "/artworks/watercolor/Watercolor 5.jpg",
+    ],
+    year: "2026",
+    medium: "Watercolor on paper"
+  },
+  {
+    id: 12,
+    title: "Beast",
+    description: "",
+    imageUrls: [
+      "/artworks/beast/Beast .jpg",
+      "/artworks/beast/Beast 2.jpg",
+      "/artworks/beast/Beast 3.jpg",
+      "/artworks/beast/Beast 4.jpg",
+      "/artworks/beast/Beast 5.jpg",
+    ],
+    year: "2025",
+    medium: "Etching 4 x 5 in"
   },
 ];
