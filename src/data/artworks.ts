@@ -7,16 +7,16 @@ export interface Artwork {
   medium: string;
 }
 
-export const paintings: Artwork[] = [
+export const artworks: Artwork[] = [
   {
     id: 1,
     title: "Pegasus Before the Wings",
     description: "",
     imageUrls: [
-      "/paintings/pegasus/Pegasus before the wings.jpg",
-      "/paintings/pegasus/Pegasus closeup 1.jpg",
-      "/paintings/pegasus/Pegasus closeup 2.jpg",
-      "/paintings/pegasus/Pegasus closeup 3.jpg",
+      "/artworks/pegasus/Pegasus before the wings.jpg",
+      "/artworks/pegasus/Pegasus closeup 1.jpg",
+      "/artworks/pegasus/Pegasus closeup 2.jpg",
+      "/artworks/pegasus/Pegasus closeup 3.jpg",
     ],
     year: "2025",
     medium: "Oil on Canvas 21 1/2 x 21 1/2 in"
@@ -26,9 +26,9 @@ export const paintings: Artwork[] = [
     title: "Sparrow",
     description: "",
     imageUrls: [
-      "/paintings/sparrow/Sparrow.jpg",
-      "/paintings/sparrow/Sparrow closeup 1.jpg",
-      "/paintings/sparrow/Sparrow closeup 2.jpg",
+      "/artworks/sparrow/Sparrow.jpg",
+      "/artworks/sparrow/Sparrow closeup 1.jpg",
+      "/artworks/sparrow/Sparrow closeup 2.jpg",
     ],
     year: "2025",
     medium: "Oil on Canvas 24 x 20 in"
@@ -38,10 +38,10 @@ export const paintings: Artwork[] = [
     title: "Heritage",
     description: "",
     imageUrls: [
-      "/paintings/heritage/Heritage.jpg",
-      "/paintings/heritage/Heritage closeup 1.jpg",
-      "/paintings/heritage/Heritage closeup 2.jpg",
-      "/paintings/heritage/Heritage closeup 3.jpg",
+      "/artworks/heritage/Heritage.jpg",
+      "/artworks/heritage/Heritage closeup 1.jpg",
+      "/artworks/heritage/Heritage closeup 2.jpg",
+      "/artworks/heritage/Heritage closeup 3.jpg",
     ],
     year: "2025",
     medium: "Oil on Canvas 16 x 16 in"
@@ -51,10 +51,10 @@ export const paintings: Artwork[] = [
     title: "Free Run",
     description: "",
     imageUrls: [
-      "/paintings/running_horse/Running horse.jpg",
-      "/paintings/running_horse/Running horse closeup 1.jpg",
-      "/paintings/running_horse/Running horse closeup 2.jpg",
-      "/paintings/running_horse/Running horse closeup 3.jpg",
+      "/artworks/running_horse/Running horse.jpg",
+      "/artworks/running_horse/Running horse closeup 1.jpg",
+      "/artworks/running_horse/Running horse closeup 2.jpg",
+      "/artworks/running_horse/Running horse closeup 3.jpg",
     ],
     year: "2025",
     medium: "Oil on Canvas 24 x 24 in"
@@ -64,8 +64,8 @@ export const paintings: Artwork[] = [
     title: "Running Rabbit",
     description: "",
     imageUrls: [
-      "/paintings/running_rabbit/Running Rabbit.jpg",
-      "/paintings/running_rabbit/Running rabbit Large.jpg",
+      "/artworks/running_rabbit/Running Rabbit.jpg",
+      "/artworks/running_rabbit/Running rabbit Large.jpg",
     ],
     year: "2025",
     medium: "Oil on Canvas 15 x 18 in"
@@ -75,7 +75,7 @@ export const paintings: Artwork[] = [
     title: "Awakening",
     description: "",
     imageUrls: [
-      "/paintings/hand/Hand.jpg",
+      "/artworks/hand/Hand.jpg",
     ],
     year: "2025",
     medium: "Oil on Canvas 18 x 15 in"
@@ -85,7 +85,7 @@ export const paintings: Artwork[] = [
     title: "Winter",
     description: "",
     imageUrls: [
-      "/paintings/winter/Winter.jpg",
+      "/artworks/winter/Winter.jpg",
     ],
     year: "2024",
     medium: "Oil on Canvas 40 x 30 in"
@@ -95,7 +95,7 @@ export const paintings: Artwork[] = [
     title: "Self Portrait",
     description: "",
     imageUrls: [
-      "/paintings/self_portrait/Self PORTRAIT.jpg",
+      "/artworks/self_portrait/Self PORTRAIT.jpg",
     ],
     year: "2024",
     medium: "Oil on Canvas 24 x 24 in"
@@ -105,7 +105,7 @@ export const paintings: Artwork[] = [
     title: "Self Portrait",
     description: "",
     imageUrls: [
-      "/paintings/self_portrait_double/Self PORTRAIT DOBLE.jpg",
+      "/artworks/self_portrait_double/Self PORTRAIT DOBLE.jpg",
     ],
     year: "2025",
     medium: "Oil on panel (diptych) 8 x 6 in each"
@@ -115,12 +115,9 @@ export const paintings: Artwork[] = [
     title: "The Horse",
     description: "",
     imageUrls: [
-      "/paintings/lady_horse/Lady Horse.jpg",
+      "/artworks/lady_horse/Lady Horse.jpg",
     ],
     year: "2025",
     medium: "Oil on Canvas 20 x 24 in"
   },
-];
-
-export const prints: Artwork[] = [
 ];

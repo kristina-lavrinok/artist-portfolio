@@ -2,22 +2,20 @@ import { useState } from 'react';
 import Sidebar from './components/Sidebar';
 import Gallery from './components/Gallery';
 import About from './components/About';
-import { paintings, prints } from './data/artworks';
+import { artworks } from './data/artworks';
 
 function App() {
-  const [activeSection, setActiveSection] = useState('paintings');
+  const [activeSection, setActiveSection] = useState('artworks');
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const renderContent = () => {
     switch (activeSection) {
-      case 'paintings':
-        return <Gallery artworks={paintings} title="Paintings" sidebarOpen={sidebarOpen} />;
-      case 'prints':
-        return <Gallery artworks={prints} title="Prints" sidebarOpen={sidebarOpen} />;
+      case 'artworks':
+        return <Gallery artworks={artworks} title="Artworks" sidebarOpen={sidebarOpen} />;
       case 'about':
         return <About sidebarOpen={sidebarOpen} />;
       default:
-        return <Gallery artworks={paintings} title="Paintings" sidebarOpen={sidebarOpen} />;
+        return <Gallery artworks={artworks} title="Artworks" sidebarOpen={sidebarOpen} />;
     }
   };
 

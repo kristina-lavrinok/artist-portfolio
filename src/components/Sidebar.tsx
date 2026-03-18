@@ -9,8 +9,7 @@ interface SidebarProps {
 
 export default function Sidebar({ activeSection, onSectionChange, isOpen, onToggle }: SidebarProps) {
   const menuItems = [
-    { id: 'paintings', label: 'Paintings' },
-    { id: 'prints', label: 'Prints' },
+    { id: 'artworks', label: 'Artworks' },
     { id: 'about', label: 'About' },
   ];
 
