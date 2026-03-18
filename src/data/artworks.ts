@@ -86,10 +86,10 @@ export const artworks: Artwork[] = [
     description: "",
     imageUrls: [
       "/artworks/grasshopper /Grasshopper .jpg",
-      "/artworks/grasshopper /Grasshopper wall.jpg",
       "/artworks/grasshopper /Grasshopper wall close up .jpg",
       "/artworks/grasshopper /Grasshopper wall close up 2.jpg",
       "/artworks/grasshopper /Grasshopper wall close up 3.jpg",
+      "/artworks/grasshopper /Grasshopper wall.jpg",
     ],
     year: "2026",
     medium: "Oil on canvas 30 x 40 in"
@@ -123,8 +123,8 @@ export const artworks: Artwork[] = [
     title: "Roots of the Unborn",
     description: "",
     imageUrls: [
-      "/artworks/roots_of_the_unborn/Roots of the Unborn .jpg",
       "/artworks/roots_of_the_unborn/Roots of the Unborn 2.jpg",
+      "/artworks/roots_of_the_unborn/Roots of the Unborn .jpg",
     ],
     year: "2025",
     medium: "Etching, Edition 1/5 Paper size: 5 1/2 x 7 in"
@@ -143,19 +143,5 @@ export const artworks: Artwork[] = [
     ],
     year: "2026",
     medium: "Watercolor on paper"
-  },
-  {
-    id: 12,
-    title: "Beast",
-    description: "",
-    imageUrls: [
-      "/artworks/beast/Beast .jpg",
-      "/artworks/beast/Beast 2.jpg",
-      "/artworks/beast/Beast 3.jpg",
-      "/artworks/beast/Beast 4.jpg",
-      "/artworks/beast/Beast 5.jpg",
-    ],
-    year: "2025",
-    medium: "Etching 4 x 5 in"
-  },
+  }
 ];
